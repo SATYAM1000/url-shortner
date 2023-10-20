@@ -1,0 +1,20 @@
+{
+  "name": "02_url_shortner",
+  "version": "1.0.0",
+  "description": "Url shortner using node JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "author": "Satyam Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3",
+    "nanoid": "^5.0.2",
+    "nodemon": "^3.0.1",
+    "shortid": "^2.2.16"
+  }
+}
